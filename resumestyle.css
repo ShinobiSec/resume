@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 5px;
+    border-color: black;
+    width: 11.5in; /* Set width to match paper width */
+    margin: 0 auto;
+  }
+
+header {
+    background-color: #00a1e0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    }
+
+header p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main {
+display: flex;
+width: 11.5in; /* Set width to match paper width */
+margin: 0 auto; /* Center the content horizontally */
+}
+main hr{
+  margin-top: -1.5px;
+  }
+
+section {
+padding: 20px;
+}
+
+ul {
+list-style-type: disc; /* Set bullet point style */
+}
+
+ul li {
+margin-bottom: 10px; /* Add space between list items */
+}
+
+#professional_experience {
+flex: 1;
+}  
+
+#professional_experience p {
+margin: 0; /* Remove default paragraph margin */
+}
+
+#right_section {
+flex: 0 0 200px;
+background-color: #f4f4f4;
+}
+#right_section ul{
+  margin: 10px;
+  padding: 0;
+}
+#right_section p{
+font-size: 15px;
+margin: -5px;
+}
+#right_section_hr{
+margin-top: 30px;
+}
+
+@media print {
+    * {
+      -webkit-print-color-adjust: exact; /* For Chrome and Safari */
+      color-adjust: exact; /* For Firefox */
+    }
+  }
