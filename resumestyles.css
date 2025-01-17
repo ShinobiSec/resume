@@ -32,8 +32,8 @@ body {
   }
 
 header {
-    background-color: #00a1e0;
-    color: white;
+    background-color: White;
+    color: black;
     text-align: center;
     padding: 10px;
 }
@@ -81,7 +81,7 @@ margin: 0; /* Remove default paragraph margin */
 
 #right_section {
 flex: 0 0 200px;
-background-color: #f4f4f4;
+background-color: white;
 }
 #right_section ul{
   margin: 10px;
